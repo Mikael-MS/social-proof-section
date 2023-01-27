@@ -159,11 +159,9 @@ body {
     }
 
     .assessment {
-        flex-direction: column;
-    }
-
-    .buyer {
-        margin: 0;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
     }
 
     .buyer:nth-child(1) {
@@ -182,20 +180,19 @@ body {
         flex-direction: column;
     }
 
-    .group-satr {
+    .group-star {
         max-width: 300px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        row-gap: 15px;
-
+        row-gap: 1rem;
     }
 
-    .group-satr:nth-child(2) {
-        margin: 15px 0;
+    .group-star:nth-child(2) {
+        margin:15px 0px;
     }
 
-    .group-satr:nth-child(3) {
-        margin: 15px 0;
+    .group-star:nth-child(3) {
+        margin: 15px 0px;
     }
 }
