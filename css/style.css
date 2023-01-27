@@ -37,7 +37,7 @@ body {
 }
 
 .main-title {
-    color: hsl(300, 42%, 22%);
+    color: var(--very-dark-magenta)
 }
 
 .main-title h1 {
@@ -61,21 +61,21 @@ body {
 
 .star-assessment strong {
     margin-left: 15px;
-    color: hsl(300, 43%, 22%);
+    color: var(--very-dark-magenta);
 }
 
-.group-satr:nth-child(2) {
+.group-star:nth-child(2) {
     margin-left: 60px;
 }
 
-.group-satr:nth-child(3) {
+.group-star:nth-child(3) {
     margin-left: 120px;
 }
 
-.group-satr {
+.group-star {
     display: flex;
     width: 350px;
-    background-color: hsla(0, 6%, 91%, 0.61);
+    background-color: var(--light-grayish-magenta);
     margin-top: 20px;
     border-radius: 5px;
     padding: 12px;
@@ -102,7 +102,7 @@ body {
 }
 
 .ver-buyer strong {
-    color: white;
+    color: var(--white);
 }
 
 .buyer img {
@@ -122,7 +122,7 @@ body {
 
 
 .buyer {
-    background-color: hsl(300, 43%, 22%);
+    background-color: var(--very-dark-magenta);
     padding: 20px;
     border-radius: 5px;
     color: white;
